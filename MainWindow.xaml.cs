@@ -22,6 +22,7 @@ namespace AppDebunker
 	{
 		public MainWindow()
 		{
+			AppInteraction.GetPackages();
 			InitializeComponent();
 		}
 	}
